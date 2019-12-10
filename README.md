@@ -26,7 +26,9 @@ And then the function `_vg_ajax_callback_function($id)` will be sinked.
 ```
 ![2](2.png)
 
-Then Press `Add Video Gallery` and into this page then press`ADD VIDEO BANNER`.You can upload an image and write the payload on hte `Title` label.
+---
+
+The other like a stored-xss Press `Add Video Gallery` and into this page then press`ADD VIDEO BANNER`.You can upload an image and write the payload on hte `Title` label.
 ![3](3.png)
 Then press Publish And You will get a `Shortcode`, press the `Shortcode` in your page.
 ![4](4.png)
