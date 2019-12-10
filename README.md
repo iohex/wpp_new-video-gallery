@@ -39,6 +39,14 @@ And then the function `_vg_ajax_callback_function($id)` will be sinked.
 
 ## 2 
 Press `Add Video Gallery` and into this page then press`ADD VIDEO BANNER`.You can upload an image and write the payload on hte `Title` label.
-Then press Publish And You will get a `Shortcode`, press the `Shortcode` in your page. The xss will execute in the front page.
+![3](3.png)
+Then press Publish And You will get a `Shortcode`, press the `Shortcode` in your page.
+![4](4.png)
+![5](5.png)
+The xss will execute in the front page.
+![6](6.png)
 
-
+* Poc
+  ``` html
+  “><script>alert(2)</script><
+  ```
