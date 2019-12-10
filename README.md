@@ -19,7 +19,7 @@ At frist, in the file new-video-gallery/new-video-gallery.php:300 line, the func
 
 
 And then the function `_vg_ajax_callback_function($id)` will be sinked.
-
+![1](1.png)
 - The PoC:
 ```php
 <html>
@@ -34,3 +34,4 @@ And then the function `_vg_ajax_callback_function($id)` will be sinked.
   </body>
 </html>
 ```
+![2](2.png)
