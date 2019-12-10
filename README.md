@@ -34,10 +34,12 @@ The other like a stored-xss Press `Add Video Gallery` and into this page then pr
 
 ![3](3.png)
 
-Then press Publish And You will get a `Shortcode`, press the `Shortcode` in your page.
+Then press Publish And You will get a `Shortcode`.
 
 ![4](4.png)
 
+Press the `Shortcode` in your page.
+ 
 ![5](5.png)
 
 The xss will execute in the front page.
