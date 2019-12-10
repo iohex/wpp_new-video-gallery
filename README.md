@@ -10,7 +10,9 @@ At frist, in the file new-video-gallery/new-video-gallery.php:300 line, the func
 
 
 And then the function `_vg_ajax_callback_function($id)` will be sinked.
+
 ![1](1.png)
+
 - The PoC:
 ```php
 <html>
@@ -29,11 +31,17 @@ And then the function `_vg_ajax_callback_function($id)` will be sinked.
 ---
 
 The other like a stored-xss Press `Add Video Gallery` and into this page then press`ADD VIDEO BANNER`.You can upload an image and write the payload on hte `Title` label.
+
 ![3](3.png)
+
 Then press Publish And You will get a `Shortcode`, press the `Shortcode` in your page.
+
 ![4](4.png)
+
 ![5](5.png)
+
 The xss will execute in the front page.
+
 ![6](6.png)
 
 * Poc
