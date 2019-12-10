@@ -3,7 +3,7 @@
 * Issue: xss
 
 # Detail
-## 
+
 [new-video-gallery](https://wordpress.org/plugins/new-video-gallery/) is a Wordpress plugin for create YouTube Gallery & Create Vimeo Gallery into your WordPress site. In the version 1.2.2 there are some XSS issues.
 
 At frist, in the file new-video-gallery/new-video-gallery.php:300 line, the function `_ajax_video_gallery()` can be controlled.
@@ -26,8 +26,7 @@ And then the function `_vg_ajax_callback_function($id)` will be sinked.
 ```
 ![2](2.png)
 
-## 2 
-Press `Add Video Gallery` and into this page then press`ADD VIDEO BANNER`.You can upload an image and write the payload on hte `Title` label.
+Then Press `Add Video Gallery` and into this page then press`ADD VIDEO BANNER`.You can upload an image and write the payload on hte `Title` label.
 ![3](3.png)
 Then press Publish And You will get a `Shortcode`, press the `Shortcode` in your page.
 ![4](4.png)
